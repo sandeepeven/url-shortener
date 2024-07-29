@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.heading {
+	margin: 100px 0px;
+	text-align: center;
+}
+
+.heading__website-name {
+	font-size: xxx-large;
+	color: rgb(79, 111, 82);
+	text-decoration-line: none;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.form__url-input {
+	height: 40px;
+	width: 40%;
+	padding: 0 15px;
+}
+
+.short-button {
+	height: 45px;
+	margin: 0 10px;
+}
+
+#urloutput {
+	font-size: xx-large;
+	text-align: center;
+}
+
+#urlResultBox {
+	margin: 50px 0;
+	text-align: center;
+}
+
+#urlResultBox span {
+	font-size: large;
+}
+
+#urlResultBox button {
+	font-size: large;
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+#bottom-nav {
+	height: 80px;
+	width: 100%;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	vertical-align: middle;
+	background-color: rgb(79, 111, 82);
+}
+
+#bottom-nav ul li {
+	display: inline-block;
+	margin: 14px 15px;
+	color: white;
+}
+
+#bottom-nav ul li a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#bottom-nav ul li a:visited {
+	color: white;
+	text-decoration: none;
+}
